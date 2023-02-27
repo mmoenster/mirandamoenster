@@ -1,0 +1,2193 @@
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="canonical" href="https://www.mirandamoenster.com/"><link rel="shortcut icon" src="Miranda Mønster-8.png" type="image/png"><title>Miranda Mønster | Wellness Content Creator + Designer
+&ndash; mirandamønster</title><meta name="description" content="Exploring wellness through a lens of natural simplicity">
+
+
+
+
+<meta property="og:site_name" content="Miranda Mønster">
+<meta property="og:url" content="mirandamoenster.com">
+<meta property="og:title" content="Miranda Mønster| Creative Wellness Designer + Director">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Exploring the wellness through a lens of natural simplicity.">
+
+
+
+
+
+
+
+<script>
+    
+  
+    document.documentElement.className = document.documentElement.className.replace('no-js', '');
+  
+    window.theme = {
+      version: 'v3.5.1',
+      moneyFormat: "${{amount}}",
+      routes: {
+        root: "/",
+        cart: {
+          base: "/cart",
+          add: "/cart/add",
+          change: "/cart/change",
+          clear: "/cart/clear",
+        },
+        // Manual routes until Shopify adds support
+        products: "/products",
+        productRecommendations: "/recommendations/products"
+      },
+      strings: {
+        product: {
+          reviews: "Reviews"
+        },
+        products: {
+          product: {
+            unitPrice: "Unit price",
+            unitPriceSeparator: "per"
+          }
+        },
+        search: {
+          headings: {
+            articles: "Articles",
+            pages: "Pages",
+            products: "Products"
+          },
+          view_all: "View all",
+          no_results: "We found no search results"
+        }
+      }
+    }
+  </script>
+  
+
+
+<style>
+  @font-face {
+  font-family: Lora;
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://fonts.shopifycdn.com/lora/lora_n4.0a0652f356f2b7896162c4887e16208805a241f6.woff2?h1=aG9sbHljaGlwcGluZGFsZS5jb20&h2=aG9sbHljaGlwcGluZGFsZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=e937a7ca48cc6893b6abb302f61c017c3067604d7840d40bfb7df3c97a3e1a3d") format("woff2"),
+       url("https://fonts.shopifycdn.com/lora/lora_n4.e4a3d82d5d6a27aaec9d12942e1c4b9400193fc5.woff?h1=aG9sbHljaGlwcGluZGFsZS5jb20&h2=aG9sbHljaGlwcGluZGFsZS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=e5db5c5d2db188b0c2a677bdb476cbe6dbebe4c9881f38ac428fa713867eb106") format("woff");
+}
+
+  
+  
+
+  :root {
+    --color-text-heading: #1b1b1b;
+    --color-text-subheading: rgba(27, 27, 27, 0.7);
+    --color-text-body: #313131;
+    --color-text-body-transparent: rgba(49, 49, 49, 0.05);
+    --color-text-body-transparent-02: rgba(49, 49, 49, 0.2);
+    --color-text-meta: rgba(27, 27, 27, 0.7);
+    --color-text-link: #1f1f1f;
+    --color-text-success: #39bb4a;
+    --color-text-error: #b6534c;
+
+    --color-background: #ffffff;
+    --color-background-transparent: rgba(255, 255, 255, 0.8);
+    --color-border: #eaeaea;
+    --color-overlay: #fcfcfc;
+    --color-overlay-transparent: rgba(252, 252, 252, 0.6);
+
+    --color-background-meta: #f5f5f5;
+    --color-foreground-meta: rgba(49, 49, 49, 0.6);
+
+    --color-border-input: #eaeaea;
+    --color-text-input: #313131;
+
+    --color-background-button: #ffffff;
+    --color-background-button-hover: #cccccc;
+    --color-text-button: #141414;
+
+    --color-border-button-secondary: #eaeaea;
+    --color-text-button-secondary: #313131;
+    --color-border-button-secondary-hover: #ffffff;
+
+    --color-background-contrast: #ffffff;
+    --color-background-meta-contrast: #f5f5f5;
+    --color-foreground-meta-contrast: rgba(255, 255, 255, 0.6);
+    --color-text-meta-contrast: rgba(255, 255, 255, 0.7);
+    --color-text-heading-contrast: #ffffff;
+    --color-text-subheading-contrast: rgba(255, 255, 255, 0.7);
+    --color-text-body-contrast: #ffffff;
+    --color-border-contrast: #282828;
+    --color-background-button-contrast: #ffffff;
+    --color-background-button-hover-contrast: #cccccc;
+    --color-text-button-contrast: #191919;
+    --color-text-link-contrast: #fafafa;
+
+    --color-background-header: #ffffff;
+    --color-background-header-transparent: rgba(255, 255, 255, 0);
+    --color-text-header: #313131;
+    --color-icon-header: #313131;
+    --color-border-header: #eaeaea;
+    --color-shadow-header: rgba(0, 0, 0, 0.15);
+
+    --color-background-dropdown: #ffffff;
+    --color-text-dropdown: #141414;
+    --color-text-dropdown-transparent: rgba(20, 20, 20, 0.1);
+    --color-border-dropdown: #353535;
+
+    --color-background-footer: #fafafa;
+    --color-text-footer: #1f1f1f;
+    --color-border-footer: #dcdcdc;
+    --color-border-footer-darker: #a9a9a9;
+
+    --color-text-drawer: #141414;
+    --color-text-meta-drawer: rgba(20, 20, 20, 0.7);
+    --color-background-drawer: #ffffff;
+    --color-border-drawer: #353535;
+    --color-background-input-drawer: #ffffff;
+    --color-text-input-drawer: #1b1b1b;
+
+    --color-background-pill: rgba(234, 234, 234, 0.7);
+    --color-background-pill-hover: #eaeaea;
+
+    /* Typography */
+    --font-logo: Lora, serif;
+    --font-logo-weight: 400;
+    --font-logo-style: normal;
+    --logo-font-size: 21px;
+    --logo-text-transform: uppercase;
+    --logo-letter-spacing: 0.05em;
+
+    --font-heading: "New York", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-heading-weight: 400;
+    --font-heading-style: normal;
+    --font-heading-text-transform: uppercase;
+    --font-heading-base-letter-spacing: 0.0em;
+
+    --font-body: "New York", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-body-weight: 400;
+    --font-body-style: normal;
+    --font-body-bold-weight: bold;
+    --font-body-bolder-weight: bold;
+    --font-body-base-letter-spacing: 0.075em;
+
+    --font-meta: "New York", Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    --font-meta-weight: 400;
+    --font-meta-style: normal;
+    --font-meta-text-transform: uppercase;
+    --font-meta-base-letter-spacing: 0.0em;
+
+    /* --font-size-heading-x-large: 36px; */
+    --font-size-heading-x-large: 30px;
+    --line-height-heading-x-large: 1.22;
+
+    /* --font-size-heading-large: 32px; */
+    --font-size-heading-large: 27px;
+    --line-height-heading-large: 1.25;
+
+    /* --font-size-heading-base: 24px; */
+    --font-size-heading-base: 20px;
+    --line-height-heading-base: 1.33;
+
+    /* --font-size-heading-small: 18px; */
+    --font-size-heading-small: 15px;
+    --line-height-heading-small: 1.33;
+
+    /* --font-size-body-large: 16px; */
+    --font-size-body-large: 15px;
+    --line-height-body-large: 1.75;
+
+    /* --font-size-body-base: 14px; */
+    --font-size-body-base: 13px;
+    --line-height-body-base: 1.714;
+
+    --font-size-body-small: 12px;
+    --font-size-body-small: 11px;
+    --line-height-body-small: 1.66;
+
+    /* --font-size-meta: 12px; */
+    --font-size-meta: 12px;
+    --line-height-meta: 2;
+
+    --radius-corner: 0px;
+
+    /* Shopify pay specific */
+    --payment-terms-background-color: #f5f5f5;
+
+    
+  }
+</style>
+  
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</script>
+
+
+
+
+</script>
+
+</head>
+
+<body
+  class="
+    template-index
+    
+  "
+  
+>
+  <div class="page">
+    <div class="theme-editor-scroll-offset"></div>
+
+    <div class="header__space" data-header-space></div>
+    <div id="shopify-section-announcement-bar" class="shopify-section">
+
+
+
+
+
+
+
+
+</div>
+    <div id="header" class="header__outer-wrapper">
+
+
+
+
+
+<header
+  data-section-id="header"
+  data-section-type="header"
+  class="
+  header header--inline header--left
+  
+    header--has-logo
+  
+  
+    header--has-transparent-logo
+  
+  
+    header--transparent-home
+  
+  
+  
+"
+  style="
+  --width-max-logo: 220px;
+  --color-text-transparent: #ffffff;
+  --color-icon-transparent: #ffffff;
+  --color-border-transparent: rgba(255, 255, 255, 0.1);
+"
+>
+
+  <a class="header__menu-icon header__icon-touch" href="#" data-js-menu-button>
+    <div class="icon-button">
+  <div class="icon-button__icon">
+    <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M3 18H21V16H3V18ZM3 13H21V11H3V13ZM3 6V8H21V6H3Z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+  </div>
+</div>
+
+  </a>
+
+  <h1 class="header__logo ff-heading fs-heading-base">
+    <a class="header__logo-link" href="/">
+      
+  
+    <div
+  class="image image--24576002457778 image--responsive regular-logo"
+  
+    style="padding-top: 17.59259259259259%"
+  
+>
+  <img
+    class="image__img lazyload lazypreload "
+    src="Miranda Mønster-8.png"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="5.684210526315789"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--24576002457778 regular-logo">
+    <img class="image__img" src="Miranda Mønster-8.png" alt="">
+  </div>
+</noscript>
+  
+
+  
+    <div
+  class="image image--24576001540274 image--responsive transparent-logo"
+  
+    style="padding-top: 17.59259259259259%"
+  
+>
+  <img
+    class="image__img lazyload lazypreload "
+    src="Miranda Mønster-8.png"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="5.684210526315789"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--24576001540274 transparent-logo">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HOLLYLOGOw_2048x2048.png?v=1642146176" alt="">
+  </div>
+</noscript>
+  
+
+  
+
+    </a>
+  </h1><div class="header__links" data-navigation>
+      <ul class="header__links-list fs-body-base">
+  
+
+    
+
+    <li>
+      <a
+        href=""
+        class=" "
+        data-link
+        
+      >
+        Portfolio
+</a>
+
+      
+    </li>
+
+    
+
+    <li>
+      <a
+        href=""
+        class=" "
+        data-link
+        
+      >
+        Ethos
+</a>
+
+      
+    </li>
+
+    
+
+    <li>
+      <a
+        href=""
+        class="no-transition "
+        data-link
+        
+          data-parent
+        
+      >
+        My Story | A Wellness Journey
+<span class="header__links-icon">
+            <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+
+          </span></a>
+
+      <ul class="navigation__submenu fs-body-base" data-submenu data-depth="1"><li class="navigation__submenu-item">
+      <a
+        href=""
+        class=" "
+        data-link
+        
+      >
+        Get In Touch
+      </a></li><li class="navigation__submenu-item">
+      <a
+        href=""
+        class=" "
+        data-link
+        
+      >
+        The Beauty in Water | Coming 2023
+      </a></li><li class="navigation__submenu-item">
+      <a
+        href=""
+        class=" "
+        data-link
+        
+      >
+        Mediterranean Memoirs
+      </a></li></ul>
+
+    </li>
+
+    
+
+  
+
+      
+    </li>
+
+    
+
+    <li>
+      <a
+        href=""
+        class=" "
+        data-link
+        
+      >
+        Bookings
+</a>
+
+      
+    </li>
+</ul>
+
+
+    </div><div class="header__right">
+    <a class="header__icon-touch header__icon-touch--search no-transition" href="" data-search>
+      <div class="icon-button">
+  <div class="icon-button__icon">
+    <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+  </div>
+</div>
+
+    </a><a class="header__icon-touch no-transition" href="" data-js-cart-icon>
+      <div class="icon-button">
+  <div class="icon-button__icon">
+    <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.55 13c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.37-.66-.11-1.48-.87-1.48H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 15.37 5.48 17 7 17h12v-2H7l1.1-2h7.45zM6.16 6h12.15l-2.76 5H8.53L6.16 6zM7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+  </div>
+</div>
+
+      
+    </a>
+  </div>
+
+  
+
+<div class="quick-search" data-quick-search>
+ 
+    <script type="application/json" data-settings>
+        {
+          "limit": 4,
+          "show_articles": true,
+          "show_pages": true,
+          "show_price": true,
+          "show_vendor": false
+        }
+      </script>
+  <div class="quick-search__overlay" data-overlay></div>
+  <form action="/search" class="quick-search__container" autocomplete="off">
+    <div class="quick-search__bar">
+      <input
+        class="quick-search__input"
+        type="text"
+        name="q"
+        placeholder="What are you looking for?"
+        data-input
+      />
+      <div class="quick-search__actions">
+        <a class="quick-search__clear" href="#" data-clear>
+          <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+        </a>
+        <button class="quick-search__submit" type="submit">
+          <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+        </button>
+      </div>
+    </div>
+    <div class="quick-search__results" data-results></div>
+  </form>
+</div>
+
+  
+
+<div
+  class="quick-cart"
+  data-quick-cart
+  style="
+    --color-button-background-hover: #474747;
+  "
+>
+  <div class="quick-cart__overlay" data-overlay></div>
+
+  <div class="quick-cart__container">
+    <div class="quick-cart__cart visible" data-cart data-scroll-lock-ignore>
+      <div class="quick-cart__header">Cart</div>
+      <div class="quick-cart__items" data-items></div>
+      <div class="quick_cart__empty ff-body" data-empty>Your cart is currently empty.</div>
+      <div class="quick-cart__footer ff-body ta-c" data-footer>
+        <div class="quick-cart__discounts c-subdued" data-discounts></div><p>Your subtotal today is <span data-subtotal>$-.--</span>. Taxes and shipping calculated at checkout.
+</p>
+        <a href="/cart" class="btn btn--primary btn--short btn--full">Go to cart</a>
+      </div>
+    </div>
+
+    <div class="quick-cart__configure" data-configure>
+      <div class="quick-add loading" data-scroll-lock-ignore data-add>
+        <div class="quick-add__configure" data-contents></div>
+        <div class="quick-add__loading-wrap">
+          <div class="quick-add__loading-bar"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</header>
+
+
+
+
+<section
+  class="drawer-menu"
+  data-drawer-menu
+>
+  <script type="application/json" data-search-settings>
+  {
+    "limit": 4,
+    "show_articles": true,
+    "show_pages": true,
+    "show_price": true,
+    "show_vendor": false
+  }
+</script>
+
+  <div class="drawer-menu__overlay" data-overlay></div>
+
+  <div class="drawer-menu__panel">
+
+    <form action="/search" autocomplete="off">
+      <div class="drawer-menu__header">
+        <input
+          name="q"
+          class="drawer-menu__search-input"
+          placeholder="Search"
+          data-input
+        />
+        <div class="drawer-menu__actions">
+          <button type="button" class="drawer-menu__clear ff-meta fs-meta" data-search-clear><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+</button>
+          <button type="submit" data-search-submit><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M0 0h24v24H0V0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+</button>
+        </div>
+      </div>
+
+      <div class="drawer-menu__search-results" data-scroll-lock-ignore data-search-results></div>
+    </form>
+
+    <div class="drawer-menu__bottom">
+      <div class="drawer-menu__all-links" data-depth="0" data-all-links>
+        <div class="drawer-menu__contents" data-scroll-lock-ignore>
+
+          <div class="drawer-menu__main" data-main>
+            <ul class="drawer-menu__primary-links" data-primary-container="true" data-depth="0">
+              <li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="link"
+      class="drawer-menu__link  "
+      href=""
+      
+    >
+      <span>Portfolio</span></a>
+
+    
+</li><li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="link"
+      class="drawer-menu__link  "
+      href=""
+      
+    >
+      <span>Memoirs: The Journal</span></a>
+
+    
+</li><li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="parent"
+      class="drawer-menu__link no-transition "
+      href=""
+      
+        data-link="primary"
+      
+    >
+      <span>Shop Fine Art Film Prints</span><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+
+</a>
+
+    
+<ul class="drawer-menu__list drawer-menu__list--sub" data-height-reference>
+        <li class="drawer-menu__item drawer-menu__item--heading">
+          <button class="drawer-menu__link" data-heading="true" data-item="back">
+            <span>Shop Fine Art Film Prints</span>
+            <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+
+          </button>
+        </li>
+        <li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="link"
+      class="drawer-menu__link  "
+      href=""
+      
+    >
+      <span>Umbrellas of Ravello | Limited edition series</span></a>
+
+    
+</li><li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="link"
+      class="drawer-menu__link  "
+      href=""
+      
+    >
+      <span>The Beauty in Water | Coming 2023</span></a>
+
+    
+</li><li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="link"
+      class="drawer-menu__link  "
+      href=""
+      
+    >
+      <span>Mediterranean Memoirs</span></a>
+
+    
+</li>
+      </ul></li><li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="link"
+      class="drawer-menu__link  "
+      href=""
+      
+    >
+      <span>Fine Art Print Trade Program</span></a>
+
+    
+</li><li class="drawer-menu__item" data-list-item>
+    <a
+      data-item="link"
+      class="drawer-menu__link  "
+      href=""
+      
+    >
+      <span>Bookings</span></a>
+
+    
+</li>
+            </ul>
+          </div>
+        </div><ul class="drawer-menu__footer" data-footer><form method="post" action="/localization" id="localization_form" accept-charset="UTF-8" class="drawer-menu__form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/" /><li class="drawer-menu__item" data-list-item>
+                    <a class="drawer-menu__link" href="#" data-item="secondary">
+                      Currency
+                      <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+
+                    </a>
+                    <ul class="drawer-menu__list drawer-menu__list--sub">
+                      <li class="drawer-menu__item drawer-menu__item--heading">
+                        <button class="drawer-menu__link" data-item="secondaryHeading">
+                          <span>Currency</span>
+                          <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+
+                        </button>
+                      </li>
+                      
+                        <li class="drawer-menu__item" data-list-item>
+                          <a class="drawer-menu__link drawer-menu__link--cb" href="#" data-item="currency" data-value="AUD">
+                            <div class="drawer-menu__radio">
+                              <div></div>
+                            </div>
+                            <span>AUD $</span>
+                          </a>
+                        </li>
+                        <li class="drawer-menu__item" data-list-item>
+                          <a class="drawer-menu__link drawer-menu__link--cb" href="#" data-item="currency" data-value="CAD">
+                            <div class="drawer-menu__radio">
+                              
+                            </div>
+                            <span>CAD $</span>
+                          </a>
+                        </li>
+                        <li class="drawer-menu__item" data-list-item>
+                          <a class="drawer-menu__link drawer-menu__link--cb" href="#" data-item="currency" data-value="EUR">
+                            <div class="drawer-menu__radio">
+                              
+                            </div>
+                            <span>EUR €</span>
+                          </a>
+                        </li>
+                        <li class="drawer-menu__item" data-list-item>
+                          <a class="drawer-menu__link drawer-menu__link--cb" href="#" data-item="currency" data-value="GBP">
+                            <div class="drawer-menu__radio">
+                              
+                            </div>
+                            <span>GBP £</span>
+                          </a>
+                        </li>
+                        <li class="drawer-menu__item" data-list-item>
+                          <a class="drawer-menu__link drawer-menu__link--cb" href="#" data-item="currency" data-value="USD">
+                            <div class="drawer-menu__radio">
+                              
+                            </div>
+                            <span>USD $</span>
+                          </a>
+                        </li></ul>
+                  </li>
+                  <input type="hidden" name="currency_code" id="CurrencySelector" value="AUD" data-currency-input /></form></ul></div>
+    </div>
+  </div>
+</section>
+
+
+
+<style>
+  
+    .template-index .index {
+      margin-top: calc(var(--height-header) * -1);
+    }
+
+    .template-index .index .offset-section:first-child .block-overlay__content {
+      padding-top: var(--height-header);
+    }
+  
+
+  
+    .template-collection .collection {
+      margin-top: calc(var(--height-header) * -1);
+    }
+
+    .template-collection .collection .collection__slideshow-header-overlay .block-overlay__content {
+      padding-top: var(--height-header);
+    }
+  
+</style>
+
+
+
+</div>
+    <div class="index">
+  <!-- BEGIN content_for_index --><div id="shopify-section-1600315468934" class="shopify-section grid-section offset-section slideshow-section">
+
+<section
+  class="
+    slideshow
+    borders-nfw
+    full-width
+  "
+  data-section-id="1600315468934"
+  data-section-type="slideshow"
+  data-autoplay="0"
+  data-parallax="false"
+  data-total-slides="1"
+  style="
+    --color-dot: #b8b8b8;
+    --desktop-height: 100vh;
+    --mobile-height: 50vh;
+  "
+>
+  <div class="slideshow__slides is-hidden" data-slider>
+<div
+          class="slideshow__cell"
+          data-slide
+          data-index="0"
+          
+        >
+          <div class="slideshow__asset">
+            
+<div
+  class="image image--27448428331186 image--responsive slideshow__image-wrapper slideshow__parallax-wrapper slideshow__image--desktop"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="b86d7f9d9193--4234234fsdfsdf.png.webp"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.5090543259557343"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27448428331186 slideshow__image-wrapper slideshow__parallax-wrapper slideshow__image--desktop">
+    <img class="image__img" src="b86d7f9d9193--4234234fsdfsdf.png.webp" alt="">
+  </div>
+</noscript>
+</div>
+
+          <div class="slideshow__overlay">
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-center
+    
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #ffffff;
+    --color-background-button-hover: #cccccc;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #212121;
+    --max-width-content: 20em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+          </div>
+        </div></div>
+</section>
+
+
+</div><div id="shopify-section-16563837682c9c3175" class="shopify-section inline-section"><section
+  class="rich-text s-inline-section"
+  data-section-id="16563837682c9c3175"
+  data-section-type="rich-text"
+  style="
+    --s-max-width: 580px;
+  "
+>
+  <div class="rich-text__content rich-text__content--center"><div class="rich-text__body rte ff-body fs-primary-body c-subheading"><p>Film Photography & Artistic Motion<br/>Exploring the world through a 1980s lens</p><p>Fashion | Destinations | Fine art </p></div></div>
+</section>
+
+
+</div><div id="shopify-section-20825a01-9c1c-4574-beb0-18a56ed87f74" class="shopify-section carousel-section">
+
+<section
+  class="carousel"
+  data-section-id="20825a01-9c1c-4574-beb0-18a56ed87f74"
+  data-section-type="carousel"
+  style="
+    --height-carousel: 600px;
+    --height-carousel-mobile: 30vh;
+  "
+>
+  <div class="carousel__slides" data-js-slider>
+    
+      <div class="carousel__slide" data-js-slide data-index="0" >
+        <div class="carousel__slide-content carousel__slide-content--first borders">
+          
+            <div
+  class="image image--27448368365746 image--responsive carousel__image"
+  
+    style="padding-top: 66.3%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/3_300x300.png?v=1674775095"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/3_{width}x.png?v=1674775095"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.5082956259426847"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27448368365746 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/3_2048x2048.png?v=1674775095" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    block-overlay--no-content
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 28em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+        </div>
+      </div>
+    
+      <div class="carousel__slide" data-js-slide data-index="1" >
+        <div class="carousel__slide-content  borders">
+          
+            <div
+  class="image image--24622021378226 image--responsive carousel__image"
+  
+    style="padding-top: 65.33333333333333%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCN12_300x300.png?v=1642672736"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCN12_{width}x.png?v=1642672736"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.530612244897959"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--24622021378226 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCN12_2048x2048.png?v=1642672736" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 18em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+        </div>
+      </div>
+    
+      <div class="carousel__slide" data-js-slide data-index="2" >
+        <div class="carousel__slide-content  borders">
+          
+            <div
+  class="image image--27448370004146 image--responsive carousel__image"
+  
+    style="padding-top: 66.3%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/1_50973a1d-8566-4c25-b559-d052ae0c1984_300x300.png?v=1674775138"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/1_50973a1d-8566-4c25-b559-d052ae0c1984_{width}x.png?v=1674775138"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.5082956259426847"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27448370004146 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/1_50973a1d-8566-4c25-b559-d052ae0c1984_2048x2048.png?v=1674775138" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    block-overlay--no-content
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 28em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+        </div>
+      </div>
+    
+      <div class="carousel__slide" data-js-slide data-index="3" >
+        <div class="carousel__slide-content  borders">
+          
+            <div
+  class="image image--24621944471730 image--responsive carousel__image"
+  
+    style="padding-top: 65.33333333333333%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCNA5_300x300.png?v=1642671964"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCNA5_{width}x.png?v=1642671964"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.530612244897959"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--24621944471730 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCNA5_2048x2048.png?v=1642671964" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 28em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+        </div>
+      </div>
+    
+      <div class="carousel__slide" data-js-slide data-index="4" >
+        <div class="carousel__slide-content  borders">
+          
+            <div
+  class="image image--27448998035634 image--responsive carousel__image"
+  
+    style="padding-top: 66.3%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/BEWASAS_300x300.png?v=1674784727"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/BEWASAS_{width}x.png?v=1674784727"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.5082956259426847"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27448998035634 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/BEWASAS_2048x2048.png?v=1674784727" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 28em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+        </div>
+      </div>
+    
+      <div class="carousel__slide" data-js-slide data-index="5" >
+        <div class="carousel__slide-content  borders">
+          
+            <div
+  class="image image--24622210449586 image--responsive carousel__image"
+  
+    style="padding-top: 65.33333333333333%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCN16_300x300.png?v=1642674181"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCN16_{width}x.png?v=1642674181"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.530612244897959"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--24622210449586 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HCN16_2048x2048.png?v=1642674181" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 28em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+        </div>
+      </div>
+    
+      <div class="carousel__slide" data-js-slide data-index="6" >
+        <div class="carousel__slide-content  borders">
+          
+            <div
+  class="image image--27449007014066 image--responsive carousel__image"
+  
+    style="padding-top: 66.3%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HC-HC_300x300.png?v=1674785263"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HC-HC_{width}x.png?v=1674785263"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.5082956259426847"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27449007014066 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HC-HC_2048x2048.png?v=1674785263" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    block-overlay--no-content
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 28em;
+  "
+>
+  <div class="block-overlay__content"></div>
+</div>
+        </div>
+      </div>
+    
+      <div class="carousel__slide" data-js-slide data-index="7" >
+        <div class="carousel__slide-content  borders">
+          
+            <div
+  class="image image--25160514371762 image--responsive carousel__image"
+  
+    style="padding-top: 65.35493827160494%"
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HOC_300x300.png?v=1647932313"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HOC_{width}x.png?v=1647932313"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.5301062573789848"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--25160514371762 carousel__image">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HOC_2048x2048.png?v=1647932313" alt="">
+  </div>
+</noscript>
+          
+
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-split
+    
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.0);
+    --color-background-button: #000000;
+    --color-background-button-hover: #333333;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #b8b8b8;
+    --color-text-button: #ffffff;
+    --max-width-content: 28em;
+  "
+>
+  <div class="block-overlay__content"><div
+        class="block-overlay__meta ff-meta fs-meta animate"
+        data-theme-editor-setting="section.20825a01-9c1c-4574-beb0-18a56ed87f74.block.5c019514-a10b-45b2-a4d0-9958a8788be0.meta"
+      >
+        Carousel
+      </div></div>
+</div>
+        </div>
+      </div>
+    
+
+    <div class="mobile-carousel__pagination">
+  <div class="mobile-carousel__pagination-arrow mobile-carousel__pagination-arrow--prev" data-prev>
+    <div class="slider-button">
+  <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+</div>
+  </div>
+  <div class="mobile-carousel__pagination-arrow mobile-carousel__pagination-arrow--next" data-next>
+    <div class="slider-button">
+  <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+</div>
+  </div>
+</div>
+  </div>
+</section>
+
+
+
+</div><div id="shopify-section-1601241721814" class="shopify-section inline-section">
+
+<section
+  class="gallery s-inline-section"
+  data-section-id="1601241721814"
+  data-section-type="gallery"
+>
+  <div class="section-header ">
+  <h3 class="ff-heading fs-heading-base c-heading" data-theme-editor-setting="section.1601241721814.title"></h3></div>
+<div class="gallery__rectangle-row mobile-carousel" data-slider><div
+          class="gallery__rectangle gallery__rectangle--4"
+          data-slide
+          data-index="1"
+          
+        ><div class="gallery__image gallery__image--square borders"><div
+  class="image image--27485324181682 image--responsive "
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD_300x300.png?v=1675300136"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD_{width}x.png?v=1675300136"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.0"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27485324181682 ">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD_2048x2048.png?v=1675300136" alt="">
+  </div>
+</noscript>
+</div></div><div
+          class="gallery__rectangle gallery__rectangle--4"
+          data-slide
+          data-index="2"
+          
+        ><div class="gallery__image gallery__image--square borders"><div
+  class="image image--27485326114994 image--responsive "
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD2_300x300.png?v=1675300152"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD2_{width}x.png?v=1675300152"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.0"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27485326114994 ">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD2_2048x2048.png?v=1675300152" alt="">
+  </div>
+</noscript>
+</div></div><div
+          class="gallery__rectangle gallery__rectangle--4"
+          data-slide
+          data-index="3"
+          
+        ><div class="gallery__image gallery__image--square borders"><div
+  class="image image--27485327884466 image--responsive "
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD3_300x300.png?v=1675300166"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD3_{width}x.png?v=1675300166"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.0"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27485327884466 ">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD3_2048x2048.png?v=1675300166" alt="">
+  </div>
+</noscript>
+</div></div><div
+          class="gallery__rectangle gallery__rectangle--4"
+          data-slide
+          data-index="4"
+          
+        ><div class="gallery__image gallery__image--square borders"><div
+  class="image image--27485332340914 image--responsive "
+  
+>
+  <img
+    class="image__img lazyload  "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD6_300x300.png?v=1675300221"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD6_{width}x.png?v=1675300221"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="1.0"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+
+<noscript>
+  <div class="image image--27485332340914 ">
+    <img class="image__img" src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/AD6_2048x2048.png?v=1675300221" alt="">
+  </div>
+</noscript>
+</div></div><div class="mobile-carousel__pagination">
+  <div class="mobile-carousel__pagination-arrow mobile-carousel__pagination-arrow--prev" data-prev>
+    <div class="slider-button">
+  <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+</div>
+  </div>
+  <div class="mobile-carousel__pagination-arrow mobile-carousel__pagination-arrow--next" data-next>
+    <div class="slider-button">
+  <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+</div>
+  </div>
+</div>
+    </div></section>
+
+
+
+</div><div id="shopify-section-1600315401018" class="shopify-section grid-section offset-section slideshow-section">
+
+<section
+  class="
+    slideshow
+    borders-nfw
+    full-width
+  "
+  data-section-id="1600315401018"
+  data-section-type="slideshow"
+  data-autoplay="4000"
+  data-parallax="false"
+  data-total-slides="1"
+  style="
+    --color-dot: #ffffff;
+    --desktop-height: 100vh;
+    --mobile-height: 80vh;
+  "
+>
+  <div class="slideshow__slides is-hidden" data-slider>
+<div
+          class="slideshow__cell"
+          data-slide
+          data-index="0"
+          
+        >
+          <div class="slideshow__asset">
+            
+              <video class="slideshow__video" autoplay playsinline loop muted src="https://cdn.shopify.com/s/files/1/0560/9786/5906/files/MF.mp4?v=1642571325"></video>
+            
+</div>
+
+          <div class="slideshow__overlay">
+            
+
+
+<div
+  class="
+    block-overlay
+    block-overlay--h-left
+    block-overlay--v-center
+    
+  "
+  style="
+    --color-background: rgba(0, 0, 0, 0.1);
+    --color-background-button: #ffffff;
+    --color-background-button-hover: #cccccc;
+
+    --color-text-meta: rgba(255, 255, 255, 0.75);
+    --color-text-heading: #ffffff;
+    --color-text-subheading: #ffffff;
+    --color-text-button: #212121;
+    --max-width-content: 26em;
+  "
+>
+ 
+</div>
+          </div>
+        </div></div>
+</section>
+
+
+</div><div id="shopify-section-1661061056b5925812" class="shopify-section grid-section">
+
+<section
+  class="
+    image-with-text
+    image-with-text--p-right
+    image-with-text--w-standard
+    
+    
+  "
+  data-section-id="1661061056b5925812"
+  data-section-type="image-with-text"
+  style="
+    --max-width-content: 34em;
+  "
+>
+
+  <div class="image-with-text__image image-with-text__image--present">
+    
+
+    
+      <div class="flexible-image" style="--ar: 150.7936507936508%">
+  <img
+    class="flexible-image__img lazyload "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/8a_300x300.png?v=1661061260"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/8a_{width}x.png?v=1661061260"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="0.6631578947368421"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+    
+
+    
+  </div>
+
+  <div class="image-with-text__text">
+    <div class="image-with-text__content"><h3
+          class="image-with-text__heading ff-heading fs-page-heading c-heading"
+          data-theme-editor-setting="section.1661061056b5925812.title"
+        >
+          Campaigns & Editorials
+        </h3><div
+          class="image-with-text__subheading fs-primary-body c-subheading"
+          data-theme-editor-setting="section.1661061056b5925812.text"
+        >
+          <p>Explore Portfolio captured on 35mm film & Super8 motion.</p><p></p><p><a href="https://www.hollychippindale.com/pages/gallery" title="https://www.hollychippindale.com/pages/gallery">Explore gallery</a></p>
+        </div></div>
+  </div>
+
+</section>
+
+
+
+</div><div id="shopify-section-1637820173bbe02bf7" class="shopify-section grid-section">
+
+<section
+  class="
+    image-with-text
+    image-with-text--p-left
+    image-with-text--w-standard
+    
+    
+  "
+  data-section-id="1637820173bbe02bf7"
+  data-section-type="image-with-text"
+  style="
+    --max-width-content: 32em;
+  "
+>
+
+  <div class="image-with-text__image image-with-text__image--present">
+    
+
+    
+      <div class="flexible-image" style="--ar: 146.08809993425376%">
+  <img
+    class="flexible-image__img lazyload "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/01_300x300.jpg?v=1632820615"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/01_{width}x.jpg?v=1632820615"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="0.6845184518451846"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+    
+
+    
+  </div>
+
+  <div class="image-with-text__text">
+    <div class="image-with-text__content"><h3
+          class="image-with-text__heading ff-heading fs-page-heading c-heading"
+          data-theme-editor-setting="section.1637820173bbe02bf7.title"
+        >
+          Memoirs: The Journal
+        </h3><div
+          class="image-with-text__subheading fs-primary-body c-subheading"
+          data-theme-editor-setting="section.1637820173bbe02bf7.text"
+        >
+          <p>Come behind the scenes and explore my favourite destinations & stays across the world.</p><p></p><p></p><p><a href="https://www.hollychippindale.com/blogs/memoirs" title="https://www.hollychippindale.com/blogs/memoirs">Explore stories</a></p>
+        </div></div>
+  </div>
+
+</section>
+
+
+
+</div><div id="shopify-section-59ac128d-2ad2-4234-90dd-b84dfaba6a25" class="shopify-section grid-section">
+
+<section
+  class="
+    image-with-text
+    image-with-text--p-right
+    image-with-text--w-standard
+    
+    
+  "
+  data-section-id="59ac128d-2ad2-4234-90dd-b84dfaba6a25"
+  data-section-type="image-with-text"
+  style="
+    --max-width-content: 34em;
+  "
+>
+
+  <div class="image-with-text__image image-with-text__image--present">
+    
+
+    
+      <div class="flexible-image" style="--ar: 150.8437670114317%">
+  <img
+    class="flexible-image__img lazyload "
+    src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HC-BW_300x300.png?v=1674783714"
+    data-src="//cdn.shopify.com/s/files/1/0560/9786/5906/files/HC-BW_{width}x.png?v=1674783714"
+    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+    data-aspectratio="0.6629375676651028"
+    data-sizes="auto"
+    alt=""
+  >
+</div>
+    
+
+    
+  </div>
+
+  <div class="image-with-text__text">
+    <div class="image-with-text__content"><h3
+          class="image-with-text__heading ff-heading fs-page-heading c-heading"
+          data-theme-editor-setting="section.59ac128d-2ad2-4234-90dd-b84dfaba6a25.title"
+        >
+          Notes from the artist
+        </h3><div
+          class="image-with-text__subheading fs-primary-body c-subheading"
+          data-theme-editor-setting="section.59ac128d-2ad2-4234-90dd-b84dfaba6a25.text"
+        >
+          <p>Visual stories on a film medium. Embrace the nuances of film with grainy imperfections paired with in-between moments to relate your brand story.</p>
+        </div><div class="image-with-text__button">
+          <a
+            class="btn btn--primary"
+            href="mailto:hello@mirandamoenster.com"
+            data-theme-editor-setting="section.59ac128d-2ad2-4234-90dd-b84dfaba6a25.link_text"
+          >
+            Get in touch
+          </a>
+        </div></div>
+  </div>
+
+</section>
+
+
+
+</div><div id="shopify-section-16548814048c3c4156" class="shopify-section"><style>#insta-feed{width:100%;}#insta-feed h2{font-size:20px;</style><div id="insta-feed"></div></div><!-- END content_for_index -->
+</div>
+
+    <div id="shopify-section-popup" class="shopify-section">
+</div>
+    <div id="shopify-section-footer" class="shopify-section footer__parent">
+
+<footer
+  class="footer"
+  data-section-id="footer"
+  data-section-type="footer"
+>
+  <div class="footer__groups">
+    
+      <div class="footer__group">
+        <div class="footer__header" data-header>
+          <h5 class="footer__heading fs-body-base">SHOOT BOOKINGS</h5>
+          <div class="footer__arrow"><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+</div>
+        </div>
+        <div class="footer__group-content"><div class="fs-body-base footer__text"><p>To enquire for bookings please email info@hollychippindale.com.</p></div></div>
+      </div>
+    
+      <div class="footer__group">
+        <div class="footer__header" data-header>
+          <h5 class="footer__heading fs-body-base">Links</h5>
+          <div class="footer__arrow"><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+</div>
+        </div>
+        <div class="footer__group-content"><div class="footer__links fs-body-base">
+              
+                <ul>
+                  
+                    <li><a href="/search">Search</a></li>
+                  
+                    <li><a href="/pages/bookings">Contact Us</a></li>
+                  
+                    <li><a href="/pages/delivery">Delivery</a></li>
+                  
+                    <li><a href="/pages/returns">Returns</a></li>
+                  
+                    <li><a href="/pages/terms-and-conditions">Terms and Conditions</a></li>
+                  
+                    <li><a href="/pages/privacy-policy">Privacy Policy</a></li>
+                  
+                </ul>
+              
+            </div></div>
+      </div>
+    
+      <div class="footer__group">
+        <div class="footer__header" data-header>
+          <h5 class="footer__heading fs-body-base">Be inspired</h5>
+          <div class="footer__arrow"><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+</div>
+        </div>
+        <div class="footer__group-content"><div class="footer__newsletter">
+              <div class="fs-body-base footer__text"><p>Subscribe for monthly inspirations of our favourite destinations, stays and upcoming travels.</p></div>
+              <div class="newsletter-form">
+  <form method="post" action="/contact#footer-subscribe" id="footer-subscribe" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+    
+    
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <div class="newsletter__input-container">
+        <input
+          type="email"
+          class="input input--round"
+          name="contact[email]"
+          value=""
+          placeholder="Email address"
+          autocorrect="off"
+          autocapitalize="off">
+      </div>
+    
+  </form>
+</div>
+
+            </div></div>
+      </div>
+    
+<div class="footer__group footer__group--mobile">
+        <div class="footer__header" data-header>
+          <h5 class="footer__heading fs-body-base">Currency
+</h5>
+          <div class="footer__arrow"><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+</div>
+        </div>
+        <div class="footer__group-content">
+          
+<form method="post" action="/localization" id="mobile" accept-charset="UTF-8" class="selectors-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/" /><div class="footer__selectors"><div class="selectors-form__item">
+        <h2 class="visually-hidden" id="currency-heading">
+          Currency
+        </h2>
+
+        <div class="disclosure" data-disclosure="currency" data-disclosure-currency>
+          <button type="button" class="disclosure__toggle input-reset input" aria-expanded="false" aria-controls="currency-list" aria-describedby="currency-heading" data-disclosure-toggle>AUD $<span class="arrow">
+              <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+
+            </span>
+          </button>
+          <ul id="currency-list" class="disclosure-list" data-disclosure-list>
+            
+              <li class="disclosure-list__item disclosure-list__item--current">
+                <a class="disclosure-list__option" href="#" aria-current="true" data-value="AUD" data-disclosure-option>
+                  AUD $</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="CAD" data-disclosure-option>
+                  CAD $</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="EUR" data-disclosure-option>
+                  EUR €</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="GBP" data-disclosure-option>
+                  GBP £</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="USD" data-disclosure-option>
+                  USD $</a>
+              </li></ul>
+          <input type="hidden" name="currency_code" id="CurrencySelector--mobile" value="AUD" data-disclosure-input/>
+        </div>
+      </div></div></form>
+        </div>
+      </div><div class="footer__group footer__group--mobile">
+        <div class="footer__header" data-header>
+          <h5 class="footer__heading fs-body-base">Payment</h5>
+          <div class="footer__arrow"><span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+</div>
+        </div>
+        <div class="footer__group-content">
+          <div class="payment-icons">
+  
+   
+</div>
+
+        </div>
+      </div></div><hr class="footer__rule" /><div class="footer__bottom"><div class="footer__bottom-left">
+          
+<form method="post" action="/localization" id="footer" accept-charset="UTF-8" class="selectors-form" enctype="multipart/form-data"><input type="hidden" name="form_type" value="localization" /><input type="hidden" name="utf8" value="✓" /><input type="hidden" name="_method" value="put" /><input type="hidden" name="return_to" value="/" /><div class="footer__selectors"><div class="selectors-form__item">
+        <h2 class="visually-hidden" id="currency-heading">
+          Currency
+        </h2>
+
+        <div class="disclosure" data-disclosure="currency" data-disclosure-currency>
+          <button type="button" class="disclosure__toggle input-reset input" aria-expanded="false" aria-controls="currency-list" aria-describedby="currency-heading" data-disclosure-toggle>AUD $<span class="arrow">
+              <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7 10L12 15L17 10H7Z" fill="currentColor"/>
+
+      
+  </svg>
+</span>
+
+            </span>
+          </button>
+          <ul id="currency-list" class="disclosure-list" data-disclosure-list>
+            
+              <li class="disclosure-list__item disclosure-list__item--current">
+                <a class="disclosure-list__option" href="#" aria-current="true" data-value="AUD" data-disclosure-option>
+                  AUD $</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="CAD" data-disclosure-option>
+                  CAD $</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="EUR" data-disclosure-option>
+                  EUR €</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="GBP" data-disclosure-option>
+                  GBP £</a>
+              </li>
+              <li class="disclosure-list__item ">
+                <a class="disclosure-list__option" href="#"  data-value="USD" data-disclosure-option>
+                  USD $</a>
+              </li></ul>
+          <input type="hidden" name="currency_code" id="CurrencySelector--footer" value="AUD" data-disclosure-input/>
+        </div>
+      </div></div></form>
+<ul class="social-icons">
+  
+
+
+    
+
+  
+
+
+    
+
+  
+
+
+    
+
+  
+
+
+    
+      <li>
+        <a href="https://instagram.com/hollychippindale" title="hollychippindale on Instagram" target="_blank">
+          <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+        </a>
+      </li>
+    
+
+  
+
+
+    
+
+  
+
+
+    
+
+  
+
+
+    
+
+  
+
+
+    
+
+  
+
+
+    
+
+  
+</ul>
+
+
+
+</div>
+    </div><div class="footer__mobile-social-icons">
+      <ul class="social-icons">
+  
+
+
+    
+
+  
+
+
+    
+
+  
+
+
+    
+
+  
+
+
+    
+      <li>
+        <a href="https://instagram.com/hollychippindale" title="hollychippindale on Instagram" target="_blank">
+          <span class="icon ">
+  <svg width="100%" viewBox="0 0 24 24">
+    
+        <path d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" fill="currentColor" />
+
+      
+  </svg>
+</span>
+
+        </a>
+      </li>
+    
+
+  
+
+
+  
+</ul>
+
+    </div><div class="footer__credits">
+    <p>Copyright &copy; 2023, <a href="/" title="">hollychippindale</a>.</p>
+    <p><a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a></p>
+  </div>
+</footer>
+
+
+
+</div>
+    <div
+  class="store-availability-modal"
+  data-store-availability-modal
+  aria-describedby="modal-title"
+  aria-hidden="true"
+  role="dialog"
+>
+  <div class="store-availability-modal__wash" data-store-availability-modal-wash></div>
+  <div class="store-availability-modal__inner">
+    <div class="store-availability-modal__header">
+      <div class="store-availability-modal__product-info">
+        <h4 id="modal-title" class="store-availability-modal__store-list-product-title ff-body">
+          Availability
+        </h4>
+      </div>
+    </div>
+    <div class="store-availbility-modal__product fs-body-base" data-store-availability-product></div>
+
+    <div class="store-availbility-modal__content" data-store-list-container></div>
+  </div>
+</div>
+
+
+
+    
+  </div>
+
+
+  
+  
+<script src="//cdn.shopify.com/s/files/1/0560/9786/5906/t/5/assets/index.js?v=114433643723537288431630246787" defer="defer"></script>
+
+<input type="hidden" id="social-widget-shop-domain" value="hollychippindale.myshopify.com">
+
+<script src=https://static-socialhead.cdnhub.co/social-widget/social-widget.min.js?v=2.1 defer></script>
+<link rel="stylesheet" href=https://static-socialhead.cdnhub.co/social-widget/social-widget.min.css?v=2.1 /><div id="shopify-block-14684659138027382045" class="shopify-block shopify-app-block">
+
+
+</div></body>
+</html>
